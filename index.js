@@ -5,7 +5,7 @@ const port = process.env.PORT || 7000;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Server Running ALIF");
+  res.send("Server Running shoaib ahmad sakib");
 });
 
 app.listen(port, () => {
