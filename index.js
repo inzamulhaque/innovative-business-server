@@ -5,7 +5,7 @@ const port = process.env.PORT || 7000;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Server Running sakib");
+  res.send("Server Running ALIF");
 });
 
 app.listen(port, () => {
